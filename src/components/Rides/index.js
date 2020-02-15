@@ -1,3 +1,3 @@
-import Entertainment from "./Entertainment";
+import Rides from "./Rides";
 
-export default Entertainment
+export default Rides

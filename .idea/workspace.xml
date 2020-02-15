@@ -1,12 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b6e354a-27f0-4e48-8d8e-960cfd1a660e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/accets/ico-g-04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Result/Result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Result/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rides/Rides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rides/Rides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rides/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Wrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/rides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XMCfmiggqyFqgst2ZfKXuPc7OT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/accets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/accets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b6e354a-27f0-4e48-8d8e-960cfd1a660e" name="Default Changelist" comment="" />
+      <created>1580846681817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580846681817</updated>
+      <workItem from="1580846683618" duration="1435000" />
+      <workItem from="1581016602724" duration="5258000" />
+      <workItem from="1581180253702" duration="11885000" />
+      <workItem from="1581531526189" duration="6166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="51" key="#ESLint" timestamp="1581529267486">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="240" y="51" key="#ESLint/0.23.1280.726@0.23.1280.726" timestamp="1581181394282" />
+    <state x="240" y="51" key="#ESLint/0.23.1280.728@0.23.1280.728" timestamp="1581529267486" />
+    <state x="306" y="143" width="667" height="488" key="find.popup" timestamp="1581795688519">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="306" y="143" width="667" height="486" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1581182443500" />
+    <state x="306" y="143" width="667" height="488" key="find.popup/0.23.1280.728@0.23.1280.728" timestamp="1581795688519" />
+    <state x="305" y="75" width="670" height="676" key="search.everywhere.popup" timestamp="1581529674006">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state x="305" y="75" width="670" height="676" key="search.everywhere.popup/0.23.1280.728@0.23.1280.728" timestamp="1581529674006" />
   </component>
 </project>

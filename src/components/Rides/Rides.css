@@ -1,0 +1,44 @@
+.ride {
+    background-color: #373737;
+    max-height: 250px;
+    max-width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.color {
+    width: 100%;
+    height: 5px;
+}
+
+.zone {
+    text-decoration-color: #656565;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.name {
+    text-decoration-color: #656565;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.time {
+    text-decoration-color: #656565;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.tickets {
+    text-decoration-color: #656565;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.time_svg {
+    height: 20px;
+}
+
+.ticket_svg {
+    height: 20px;
+}
