@@ -1,12 +1,11 @@
 import React from 'react';
-import "./Input.css"
+import TextInput from "./Input.styled";
 
-const Input = (onChange, onClick) => {
+const Input = ({getPin}) => {
     return (
-        <div>
-            <input className="input" type="text"/>
-            <button className="submit" type="submit">Submit</button>
-        </div>
+        <>
+            <TextInput onChange={(e)=>getPin(e.target.value)} type="text"/>
+        </>
     );
 };
 

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Input from "../Input";
-import Rides from "../Rides";
 import { connect } from 'react-redux';
 import {asyncGetRides, asyncGetCode, chooseRide} from "../../redux/actions";
+import RidesListContainer from "../RidesList";
+import InputWrapperContainer from "../InputWrapper/InputWrapperContainer";
 
 class Wrapper extends Component {
     state = {
@@ -14,23 +15,6 @@ class Wrapper extends Component {
         this.props.getRides();
     }
 
-    createRidesList = (rides) => {
-        return Object.keys(rides).map((i)=>(
-            <Rides
-                key={rides[i].id}
-                color={rides[i].zone.color}
-                zone={rides[i].zone.name}
-                name={rides[i].name}
-                time={rides[i].return_time}
-                tickets={rides[i].remaining_tickets}
-                onClick={()=>{
-                    this.props.chooseRide(rides[i]);
-                    console.log(this.props.chosenRide)
-                }}
-            />)
-        )
-    };
-
     handleChange = (event) => {
         this.setState({pin: event.target.value});
     }
@@ -40,10 +24,9 @@ class Wrapper extends Component {
         const {pin} = this.state;
         return (
             <div>
-                <Input onChange={this.handleChange} onClick={()=>this.props.getCode(pin, chosenRide)}/>
-                <div className="ridesList">
-                    {rides ? this.createRidesList(rides) : null}
-                </div>
+                <InputWrapperContainer/>
+                {/*<Input onChange={this.handleChange} onClick={()=>this.props.getCode(pin, chosenRide)}/>*/}
+                <RidesListContainer/>
             </div>
         );
     }

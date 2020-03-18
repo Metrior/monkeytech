@@ -2,20 +2,17 @@ import React, {Component} from 'react';
 import {connect} from "react-redux"
 import {Redirect} from "react-router";
 
-class Result extends Component {
-    render() {
-        const {code} = this.props;
+const Result = ({}) => {
         return (
             <div>
                 {
-                    code ? <div>
-
-                    </div> : <Redirect to="/"/>
+                    // code ? <div>
+                    //
+                    // </div> : <Redirect to="/"/>
                 }
             </div>
         );
-    }
-}
+};
 
 const mapStateToProps = state => {
     return {

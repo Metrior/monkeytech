@@ -1,17 +1,18 @@
 import React from 'react';
-import './App.css';
 import Wrapper from "./components/Wrapper";
 import Result from "./components/Result";
 import {Route, Switch} from 'react-router-dom';
 
+import Root from "./App.styled";
+
 function App() {
   return (
-    <div className="App">
+    <Root>
         <Switch>
             <Route exact path="/" component={Wrapper}/>
             <Route exact path="/result" component={Result}/>
         </Switch>
-    </div>
+    </Root>
   );
 }
 

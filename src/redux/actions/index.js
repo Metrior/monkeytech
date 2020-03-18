@@ -31,6 +31,13 @@ export const getCode = (code) => {
     }
 };
 
+export const getPin = (pin) => {
+    return {
+        type: actionTypes.GET_PIN,
+        payload: pin
+    }
+};
+
 export const asyncGetCode = (pin, ride_id) => {
     return async dispatch => {
         await axios.post('http://fast-rider.herokuapp.com/api/v1/tickets', {"pin":pin,"ride_id":ride_id,"token":"4333898df4a3e992b8411004109e4d574a90695e39e"})
