@@ -12,7 +12,7 @@ const SubmitButton = ({getCode, pin, ride_id}) => {
     };
 
     return (
-        <Submit onClick={handleClick}/>
+        <Submit onClick={()=>handleClick()}/>
         );
 };
 

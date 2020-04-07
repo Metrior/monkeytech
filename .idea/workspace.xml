@@ -2,54 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b6e354a-27f0-4e48-8d8e-960cfd1a660e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputWrapper/InputWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputWrapper/InputWrapper.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputWrapper/InputWrapperContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ride/Ride.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ride/Ride.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Ride/RideContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RidesList/RidesList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RidesList/RidesList.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RidesList/RidesListContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RidesList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SubmitButton/SubmitButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SubmitButton/SubmitButton.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SubmitButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorMessage/ErrorMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorMessage/ErrorMessage.styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorMessage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Result/Result.styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Result/ResultContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResultMessage/ResultMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResultMessage/ResultMessage.styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResultMessage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-01.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-02.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-03.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-04.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-04.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-01.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-01.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-02.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-02.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-03.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-03.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accets/ico-g-04.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ico-g-04.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rides/Rides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rides/Rides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rides/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ride/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wrapper/Wrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SubmitButton/SubmitButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SubmitButton/SubmitButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/rides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/rides.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +110,10 @@
       <workItem from="1581531526189" duration="6406000" />
       <workItem from="1581865448531" duration="1737000" />
       <workItem from="1583268748917" duration="16146000" />
-      <workItem from="1584358353109" duration="3155000" />
+      <workItem from="1584358353109" duration="3478000" />
+      <workItem from="1584964755419" duration="4425000" />
+      <workItem from="1585049280503" duration="941000" />
+      <workItem from="1585220547532" duration="3835000" />
     </task>
     <servers />
   </component>
@@ -170,9 +139,10 @@
       <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="365" y="201" key="jetbrains.nodejs.interpreters-dialog/0.23.1280.729@0.23.1280.729" timestamp="1582401763223" />
-    <state x="305" y="75" width="670" height="676" key="search.everywhere.popup" timestamp="1581529674006">
-      <screen x="0" y="23" width="1280" height="728" />
+    <state x="305" y="75" width="670" height="677" key="search.everywhere.popup" timestamp="1585483975289">
+      <screen x="0" y="23" width="1280" height="729" />
     </state>
     <state x="305" y="75" width="670" height="676" key="search.everywhere.popup/0.23.1280.728@0.23.1280.728" timestamp="1581529674006" />
+    <state x="305" y="75" width="670" height="677" key="search.everywhere.popup/0.23.1280.729@0.23.1280.729" timestamp="1585483975289" />
   </component>
 </project>

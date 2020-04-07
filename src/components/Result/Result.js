@@ -1,23 +1,24 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux"
 import {Redirect} from "react-router";
+import ErrorMessage from "../ErrorMessage/ErrorMessage";
 
-const Result = ({}) => {
+const Result = (code,error) => {
+
+    let result;
+    if (error){
+
+    } else if(code){
+        result = <ErrorMessage></ErrorMessage>
+    } else {
+        result = <div></div>
+    }
+
         return (
-            <div>
-                {
-                    // code ? <div>
-                    //
-                    // </div> : <Redirect to="/"/>
-                }
-            </div>
+            <>
+                {result}
+            </>
         );
 };
 
-const mapStateToProps = state => {
-    return {
-        code: state.setCode.code
-    };
-};
-
-export default connect(mapStateToProps)(Result);
+export default Result;

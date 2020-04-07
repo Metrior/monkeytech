@@ -40,9 +40,21 @@ export const getPin = (pin) => {
 
 export const asyncGetCode = (pin, ride_id) => {
     return async dispatch => {
-        await axios.post('http://fast-rider.herokuapp.com/api/v1/tickets', {"pin":pin,"ride_id":ride_id,"token":"4333898df4a3e992b8411004109e4d574a90695e39e"})
+        let data = new FormData();
+        data.set("pin", "JN-8080-8080-QQ");
+        data.set("ride_id", "4");
+        data.set("token", "433898df4a3e992b8411004109e4d574a90695e39e");
+
+        await axios.post('http://fast-rider.herokuapp.com/api/v1/tickets', data, {headers:{'Content-Type': 'application/x-www-form-urlencoded' }})
             .then(code=>{
                 dispatch(getCode(code))
-            })
+            }).catch((error)=>console.log(error.response.data.message))
+    }
+};
+
+export const getCodeError = (error) => {
+    return {
+        type: actionTypes.GET_CODE_ERROR,
+        payload: error
     }
 };
